@@ -7,7 +7,9 @@
     --bannerBgLight:#003cac;
     --bannerBgDark:#00254d;
     --brickRed:#e23f5b;
-
+    --violet:#430064;
+    --brown:#c26508;
+    --fontColor:#787f9a;
 }
 *{
     padding: 0;
@@ -199,4 +201,82 @@ section .form{
 }
 .form .links span{
     font-size: 0.75rem;
+}
+.courses{
+    background-color: whitesmoke;
+}
+.courses h2{
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 400;
+    padding: 4rem 0;
+}
+.course-container{
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    background-color: var(--white);
+    background-color: white;
+    height: 40rem;
+    width: 25rem;
+    margin: 1rem 2rem 2rem 2rem;
+
+}
+.course-container .course-heading{
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    height: 15%;
+    padding: 1rem;
+}
+.course-heading h3{
+    color: var(--white);
+    font-weight: 600;
+}
+.course-heading img{
+    width: 50px;
+    height: 50px;
+}
+.sd{
+    background-color: var(--primary);
+}
+.ml{
+    background-color: var(--violet);
+}
+.ms{
+    background-color: var(--brown);
+}
+.course-details{
+    padding: 2rem;
+    height: 65%;
+    overflow: auto;
+}
+.course-details .yoe p{
+    margin-left: 1rem;
+}
+.course-details h4{
+    margin-top: 1rem;
+    font-weight: 200;
+    line-height: 1.5;
+
+}
+.course-details p{
+    color: var(--fontColor);
+    font-size: 0.75rem;
+    line-height: 2;
+    font-weight: 200;
+}
+.course-footer div{
+    padding: 2rem 3rem;
+}
+.course-footer>img{
+    margin-left: 2rem;
+}
+.course-footer span{
+    color: var(--fontColor);
+    line-height: 1.25;
+}
+.course-footer>div a{
+    color: var(--primary);
+    line-height: 1.5;
+    text-decoration: none;
+    margin-left: 2rem;
 }
