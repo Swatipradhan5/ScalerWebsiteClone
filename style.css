@@ -10,6 +10,8 @@
     --violet:#430064;
     --brown:#c26508;
     --fontColor:#787f9a;
+    --footerBgDark:#202738;
+    --footerFontColor:#8698c6;
 }
 *{
     padding: 0;
@@ -279,4 +281,41 @@ section .form{
     line-height: 1.5;
     text-decoration: none;
     margin-left: 2rem;
+}
+footer{
+    background-color: var(--footerBgDark);
+    padding: 4rem; 
+}
+
+footer h4{
+    color: var(--white);
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+footer a{
+    text-decoration: none;
+    color: var(--footerFontColor);
+    line-height: 2;
+    font-size: 0.9rem;
+}
+footer .first p{
+    color: var(--white);
+}
+footer .first .logo1{
+    width: 90px;
+    height: 50px;
+}
+footer .first .logo2{
+    width: 160px;
+    height: 30px;
+    margin: 0.5rem 0;
+}
+footer .first div div{
+    display: inline-block;
+    margin-top: 1.5rem;
+    margin-right: 0.5rem;
+}
+footer .first div div img{
+    margin-top: 0.5rem;
 }
